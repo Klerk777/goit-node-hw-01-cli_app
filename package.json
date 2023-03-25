@@ -4,7 +4,7 @@
   "description": "CLI app",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "node index.js",
     "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,10 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Klerk777/goit-node-hw-01-cli_app/issues"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^3.3.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.22"
